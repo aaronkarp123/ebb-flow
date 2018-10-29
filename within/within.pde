@@ -131,7 +131,7 @@ void draw() {
     textFont(font,60);
     // white float frameRate
     fill(0);
-    rect(-width,-height,width * 3,height * 2);
+    rect(-width,-height,width * 3,height * 3);
     fill(255);
     text("Come Back At Sundown",width/2-400,height/2, 1);
     // gray int frameRate display:
