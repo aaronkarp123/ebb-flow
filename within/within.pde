@@ -136,7 +136,7 @@ void draw() {
     text("Come Back At Sundown",width/2-400,height/2, 1);
     // gray int frameRate display:
     fill(255);
-    text((int)(18 - hour) + ":" + (int)(60-minute) + ":" + (int)(60-second),width/2 + 150,height/2 + 120, 1);
+    text((int)(18 - hour - 1) + ":" + (int)(60-minute - 1) + ":" + (int)(60-second - 1),width/2 + 150,height/2 + 120, 1);
   }
   
   /*textFont(font,60);
