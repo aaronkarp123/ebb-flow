@@ -93,7 +93,7 @@ class FuzzySmokeSystem {
     for (int i=0; i<particles.length; i++) particles[i] = new FuzzySmokeParticle(c);
     
     // Create a mask, from the original sketch
-    PImage msk = loadImage("../texture.gif");
+    PImage msk = loadImage("texture.gif");
     img = new PImage(msk.width,msk.height);
     for (int i = 0; i < img.pixels.length; i++) img.pixels[i] = color(255);
     img.mask(msk);

@@ -64,8 +64,8 @@ FuzzySmokeSystem[] smokes = new FuzzySmokeSystem[10];
 float hour, minute, second;
 
 void setup() {
-  size(1000, 800, P3D);
-  //fullScreen(P3D);
+  //size(1000, 800, P3D);
+  fullScreen(P3D);
   h=height;
   w=width;
   println(width + "x"+height);
