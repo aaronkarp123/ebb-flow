@@ -884,7 +884,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 187.006714, 46.0, 35.0 ],
 									"style" : "",
-									"text" : "11 45 48"
+									"text" : "15 13 7"
 								}
 
 							}
@@ -6110,7 +6110,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 504.5, 315.5, 37.0, 22.0 ],
 									"style" : "",
-									"text" : "4475"
+									"text" : "4160"
 								}
 
 							}
@@ -6994,7 +6994,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 504.5, 315.5, 37.0, 22.0 ],
 									"style" : "",
-									"text" : "6226"
+									"text" : "6126"
 								}
 
 							}
@@ -7878,7 +7878,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 504.5, 315.5, 37.0, 22.0 ],
 									"style" : "",
-									"text" : "4558"
+									"text" : "4959"
 								}
 
 							}
@@ -11261,7 +11261,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 766.0, 148.0, 640.0, 480.0 ],
+						"rect" : [ 766.0, 147.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -11288,8 +11288,20 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 50.0, 72.0, 36.0, 22.0 ],
+									"style" : "",
+									"text" : "*~ 3."
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "newobj",
@@ -11576,7 +11588,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-40", 0 ],
+									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -11634,6 +11646,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
 									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -12367,7 +12386,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 504.5, 315.5, 37.0, 22.0 ],
 									"style" : "",
-									"text" : "4872"
+									"text" : "4396"
 								}
 
 							}
