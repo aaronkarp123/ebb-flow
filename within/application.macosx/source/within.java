@@ -85,6 +85,7 @@ float hour, minute, second;
 
 public void setup() {
   //size(1000, 800, P3D);
+  noCursor();
   
   h=height;
   w=width;

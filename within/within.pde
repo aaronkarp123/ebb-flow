@@ -65,6 +65,7 @@ float hour, minute, second;
 
 void setup() {
   //size(1000, 800, P3D);
+  noCursor();
   fullScreen(P3D);
   h=height;
   w=width;
