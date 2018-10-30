@@ -137,6 +137,7 @@ void draw() {
     // gray int frameRate display:
     fill(255);
     text((int)(18 - hour - 1) + ":" + (int)(60-minute - 1) + ":" + (int)(60-second - 1),width/2 + 150,height/2 + 120, 1);
+    return;
   }
   
   /*textFont(font,60);
