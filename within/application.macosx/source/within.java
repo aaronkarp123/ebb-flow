@@ -148,7 +148,7 @@ public void draw() {
   minute = minute();
   second = second();
   
-  if (hour >= 6.0f && hour < 18.0f ){
+  if (hour >= 6.0f && hour < 17.0f ){
     textFont(font,60);
     // white float frameRate
     fill(0);
@@ -157,7 +157,7 @@ public void draw() {
     text("Come Back At Sundown",width/2-400,height/2, 1);
     // gray int frameRate display:
     fill(255);
-    text((int)(18 - hour - 1) + ":" + (int)(60-minute - 1) + ":" + (int)(60-second - 1),width/2 + 150,height/2 + 120, 1);
+    text((int)(17 - hour - 1) + ":" + (int)(60-minute - 1) + ":" + (int)(60-second - 1),width/2 + 150,height/2 + 120, 1);
     return;
   }
   
@@ -530,7 +530,7 @@ class FuzzySmokeSystem {
   
   FuzzySmokeSystem(int numParticles, float x0, float y0)
   {
-    c = color(random(30),random(30), random(30), random(85));
+    c = color(random(60)+30,random(60)+30, random(60)+30, random(100)+30);
     x = x0;
     y = y0;
     // Create the particles for the firework
@@ -557,7 +557,7 @@ class FuzzySmokeSystem {
       if(on){
         //x = random(width);
         //y = random(height);
-        c = color(random(30),random(30), random(30), random(85));
+        c = color(random(60)+30,random(60)+30, random(60)+30, random(100)+30);
         for (int i=0; i<particles.length; i++) particles[i].change_col(c);
       }
       for (int i=0; i<particles.length; i++) particles[i].switch_on();

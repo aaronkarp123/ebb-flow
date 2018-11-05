@@ -191,7 +191,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1142.0, 34.0, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "After 6pm"
+					"text" : "After 5pm"
 				}
 
 			}
@@ -203,7 +203,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1232.0, 34.0, 100.0, 20.0 ],
 					"style" : "",
-					"text" : "Before 6pm"
+					"text" : "Before 5pm"
 				}
 
 			}
@@ -728,7 +728,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 212.5, 187.006714, 44.0, 22.0 ],
 									"style" : "",
-									"text" : "18 0 0"
+									"text" : "17 0 0"
 								}
 
 							}
@@ -911,7 +911,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 187.006714, 46.0, 35.0 ],
 									"style" : "",
-									"text" : "19 31 12"
+									"text" : "10 41 0"
 								}
 
 							}

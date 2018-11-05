@@ -85,7 +85,7 @@ class FuzzySmokeSystem {
   
   FuzzySmokeSystem(int numParticles, float x0, float y0)
   {
-    c = color(random(30),random(30), random(30), random(85));
+    c = color(random(60)+30,random(60)+30, random(60)+30, random(100)+30);
     x = x0;
     y = y0;
     // Create the particles for the firework
@@ -112,7 +112,7 @@ class FuzzySmokeSystem {
       if(on){
         //x = random(width);
         //y = random(height);
-        c = color(random(30),random(30), random(30), random(85));
+        c = color(random(60)+30,random(60)+30, random(60)+30, random(100)+30);
         for (int i=0; i<particles.length; i++) particles[i].change_col(c);
       }
       for (int i=0; i<particles.length; i++) particles[i].switch_on();
