@@ -11,3 +11,5 @@ Nov. 1 - Nov. 21 , 2018
 bird flocking patterns, this work bends the forces dictating behavior to continuously create new modes of interaction. This creation, sometimes sudden and other times gradual, is reflected in the modulation of a representative soundscape. The audience is observer and disruptor as they exist inside of a generative process of building and breaking social connections.
 
 Additional documentation found here: https://aaronmkarp.com/within.html
+
+<i>with in</i> can be executed by running boidInstallation.maxpat in MaxMSP and within.pde in Processing.
